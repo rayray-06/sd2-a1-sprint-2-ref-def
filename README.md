@@ -262,6 +262,22 @@ now it looks much better and fits the game really well
 | **T.4** | Level Loop Trigger | Reaching the map edge resets the game | Area2D triggers scene reload instantly | **PASS** |
 | **T.5** | Enemy AI Patrol | Enemy moves back and forth on ledge | Feature cut from submission scope | **N/A** |
 
+### 12.5 Sprint 2 Summary & Critical Reflection
 
+#### Overview: Sprint 1 vs. Sprint 2
+While Sprint 1 focused on basic asset generation and initial project setup, it ultimately left the game in an unstable, unplayable state with broken code and misaligned scaling. Sprint 2 completely shifted focus toward technical problem-solving, asset normalization, and build stability to deliver a functioning testing sandbox.
+
+#### What Was Added & Corrected
+During this sprint, the core mechanics were thoroughly fixed and improved:
+* **Asset Scaling and Collisions:** The player sprite was scaled down from its massive original size to a realistic `0.5` transform scale to naturally fit the environment tilesets, and the player's bounding box was manually re-fitted.
+* **Animation Script Repair:** The runtime compilation crash was fully resolved by removing incorrect string assignments and refactoring the code to use the proper `.play()` methods for seamless "running", "idle", and "jumping" animations.
+* **Infinite Level Restart Loop:** An `Area2D` trigger node (named `EndZone`) was successfully programmed at the end of the map. Instead of letting the player walk off-screen and disappear into empty space, the script now cleanly reloads the scene instantly, creating an excellent loop for gameplay testing.
+
+#### What Was Removed From Project Scope
+To guarantee a completely stable and bug-free submission before the final deadline, several features were formally cut due to high scripting complexity:
+* **Enemy AI Patrol Paths:** Programming navigation constraints and state machines for enemy pathfinding introduced too many breaking physics bugs and was removed.
+* **Main Menu & Multi-Level Loading UI:** Designing UI canvas layers and managing scene-switching logic threatened the core stability of the build, so the project was streamlined to spawn the player directly into the gameplay map instead.
+
+By removing these complex features, Sprint 2 successfully turned a broken project into a highly stable, repeatable, and functional platformer testing sandbox.
 
   
