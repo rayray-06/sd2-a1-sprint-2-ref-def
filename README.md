@@ -279,5 +279,5 @@ To guarantee a completely stable and bug-free submission before the final deadli
 * **Main Menu & Multi-Level Loading UI:** Designing UI canvas layers and managing scene-switching logic threatened the core stability of the build, so the project was streamlined to spawn the player directly into the gameplay map instead.
 
 By removing these complex features, Sprint 2 successfully turned a broken project into a highly stable, repeatable, and functional platformer testing sandbox.
-
+## to run game open the zip folder. it includesnall the files for the game
   
