@@ -252,6 +252,15 @@ now it looks much better and fits the game really well
   <img width="958" height="539" alt="Screenshot 2026-06-21 163257" src="https://github.com/user-attachments/assets/99ef2b3c-374f-4aaa-8b6e-54d162672f70" />
   now When the player steps into this area, a simple script runs `get_tree().reload_current_scene()`. This immediately resets the scene and teleports the player back to the starting point, creating a clean, repeatable testing loop.
 
+### 12.4 Sprint 2 Testing Log & Verification
+
+| Test ID | Feature Tested | Expected Outcome | Actual Result | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **T.1** | Left/Right Movement | Player moves smoothly across platforms | Player moves and flips direction correctly | **PASS** |
+| **T.2** | Jump Physics | Player jumps and falls with natural gravity | Jump works perfectly on textured floors | **PASS** |
+| **T.3** | Asset Scaling | Sprite matches tilemap platform sizes | Player scaled down to 0.5; bounds match | **PASS** |
+| **T.4** | Level Loop Trigger | Reaching the map edge resets the game | Area2D triggers scene reload instantly | **PASS** |
+| **T.5** | Enemy AI Patrol | Enemy moves back and forth on ledge | Feature cut from submission scope | **N/A** |
 
 
 
