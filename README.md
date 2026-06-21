@@ -248,8 +248,11 @@ We changed the plan to keep things realistic for this submission. We completely 
 now it looks much better and fits the game really well
 
 #### Phase 2: Level Restart Loop
-* **The Problem:** There was technically no way to finish the level, causing the player to just walk off the map screen and disappear into nothingness once they reached the end.
-* 
+* **The Problem:** There was technically no way to finish the level, causing the player to just walk off the map screen and disappear into nothingness once they reached the end. to fix this i need to create a new node and a collision body to where i want the player to stop and for it to go back to where it started.
+  <img width="958" height="539" alt="Screenshot 2026-06-21 163257" src="https://github.com/user-attachments/assets/99ef2b3c-374f-4aaa-8b6e-54d162672f70" />
+  now When the player steps into this area, a simple script runs `get_tree().reload_current_scene()`. This immediately resets the scene and teleports the player back to the starting point, creating a clean, repeatable testing loop.
+
+
 
 
   
