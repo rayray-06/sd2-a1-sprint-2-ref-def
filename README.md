@@ -231,7 +231,7 @@ We changed the plan to keep things realistic for this submission. We completely 
 | **B.1** | Player Movement | High | **COMPLETED** | Running left and right works perfectly. |
 | **B.2** | Jumping | High | **COMPLETED** | Normal jumping works on the floor. No double jumping. |
 | **B.3** | Level Ledges and Art | High | **COMPLETED** | Platforms have textures and solid collisions so you don't fall through. |
-| **B.4** | Traps / Hazards | High | **POSTPONED** | Spikes don't kill the player yet; left as background art for now. |
+| **B.4** | Traps / Hazards | High | **POSTPONED** | spikes have not been added yet, currently focusing on the main functionality of the game. |
 | **B.5** | Enemy AI Patrol | High | **REMOVED** | **Dropped from project scope.** Deleted to keep the code simple. |
 | **B.6** | Relic Collection | Medium | **POSTPONED** | Picking up items was put off due to time limits. |
 | **B.7** | Game Score UI | Medium | **POSTPONED** | The on-screen point counter text was put off. |
