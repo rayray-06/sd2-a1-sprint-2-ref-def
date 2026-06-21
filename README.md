@@ -216,3 +216,9 @@ https://www.youtube.com/watch?v=oED12Mo2018&list=PLjcN1EyupaQl0W9bQZR5i-ky7ukJZm
 
 ### 12.1 Sprint 2 Goals
 For Sprint 2, the main goals are fixing the bugs from Sprint 1 and making sure the game runs smoothly. Since time is short, we are focus on fixing what we have instead of adding too many hard new systems.
+
+**What we are fixing in Sprint 2:**
+1. **Fixing the Player Size:** Changing the character scale down in the inspector so they look normal next to the platforms.
+2. **Fixing the Code Error:** Fixing the script error on line 13 where assigning a text string broke the animation.
+3. **Cleaning up the Backlog:** Reviewing the list of features, removing the hard stuff we won't have time for, and keeping only what i can actually deliver.
+   
