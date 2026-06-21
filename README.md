@@ -247,5 +247,9 @@ We changed the plan to keep things realistic for this submission. We completely 
 <img width="959" height="539" alt="image" src="https://github.com/user-attachments/assets/229fe02a-8ff7-4632-be05-e0b4257f73bb" />
 now it looks much better and fits the game really well
 
+#### Phase 2: Level Restart Loop
+* **The Problem:** There was technically no way to finish the level, causing the player to just walk off the map screen and disappear into nothingness once they reached the end.
+* 
+
 
   
