@@ -221,4 +221,20 @@ For Sprint 2, the main goals are fixing the bugs from Sprint 1 and making sure t
 1. **Fixing the Player Size:** Changing the character scale down in the inspector so they look normal next to the platforms.
 2. **Fixing the Code Error:** Fixing the script error on line 13 where assigning a text string broke the animation.
 3. **Cleaning up the Backlog:** Reviewing the list of features, removing the hard stuff we won't have time for, and keeping only what i can actually deliver.
+
+### 12.2 Product Backlog Review & Scope Changes
+
+We changed the plan to keep things realistic for this submission. We completely removed the enemy AI and the Main Menu screens from the project scope to keep our code and scene setup simple. We also put off the traps, collectibles, and level endings so we could focus 100% on making sure the running, jumping, and textured platforms work perfectly.
+
+| Backlog ID | Feature | Priority | Status | Notes / What We Did |
+| :--- | :--- | :--- | :--- | :--- |
+| **B.1** | Player Movement | High | **COMPLETED** | Running left and right works perfectly. |
+| **B.2** | Jumping | High | **COMPLETED** | Normal jumping works on the floor. No double jumping. |
+| **B.3** | Level Ledges and Art | High | **COMPLETED** | Platforms have textures and solid collisions so you don't fall through. |
+| **B.4** | Traps / Hazards | High | **POSTPONED** | Spikes don't kill the player yet; left as background art for now. |
+| **B.5** | Enemy AI Patrol | High | **REMOVED** | **Dropped from project scope.** Deleted to keep the code simple. |
+| **B.6** | Relic Collection | Medium | **POSTPONED** | Picking up items was put off due to time limits. |
+| **B.7** | Game Score UI | Medium | **POSTPONED** | The on-screen point counter text was put off. |
+| **B.8** | Main Menu Screens | Medium | **REMOVED** | **Dropped from project scope.** Cancelled to let the player load straight into the level. |
+| **B.9** | Level Ending / Exit Door | High | **POSTPONED** | The door does not load a new level yet. |
    
