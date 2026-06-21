@@ -237,4 +237,9 @@ We changed the plan to keep things realistic for this submission. We completely 
 | **B.7** | Game Score UI | Medium | **POSTPONED** | The on-screen point counter text was put off. |
 | **B.8** | Main Menu Screens | Medium | **REMOVED** | **Dropped from project scope.** Cancelled to let the player load straight into the level. |
 | **B.9** | Level Ending / Exit Door | High | **POSTPONED** | The door does not load a new level yet. |
-   
+
+
+### 12.3 Sprint 2 Progression & Visual Evidence
+
+#### Phase 1: Sprite Scaling & Collision Adjustment
+* **The Problem:** The imported player character sprite was massive—over 3x the size of the environment platforms—making the game unplayable as a platformer.
